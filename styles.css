@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+.navbar .list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar .list .list-item:hover{
+    text-decoration: underline;
+    color: hsl(0, 0%, 80%);
+    cursor: pointer;
+}
+.navbar .logo:hover{
+    color: hsl(0, 0%, 80%);
+    cursor: pointer;
+}
